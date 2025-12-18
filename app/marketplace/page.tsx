@@ -425,10 +425,7 @@ export default function MarketplacePage() {
                   onChange={(e) => setBidAmount(e.target.value)}
                   placeholder="Teklif miktarı girin"
                   className="w-full px-4 py-3 border-2 border-gray-300 rounded-xl focus:ring-2 outline-none transition-all font-bold text-gray-900 leading-tight"
-                  style={{
-                    focusRingColor: colors.primary,
-                    focusBorderColor: colors.primary
-                  }}
+                  style={{}}
                   onFocus={(e) => {
                     e.target.style.borderColor = colors.primary
                     e.target.style.boxShadow = `0 0 0 3px ${colors.primary}20`

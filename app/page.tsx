@@ -198,10 +198,7 @@ export default function LoginPage() {
                   onChange={(e) => setPhone(e.target.value)}
                   placeholder="05XX XXX XX XX"
                   className="w-full px-5 py-4 border-2 border-gray-300 rounded-xl focus:ring-2 outline-none transition-all font-medium text-gray-900 leading-relaxed"
-                  style={{
-                    focusRingColor: colors.primary,
-                    focusBorderColor: colors.primary
-                  }}
+                  style={{}}
                   onFocus={(e) => {
                     e.target.style.borderColor = colors.primary
                     e.target.style.boxShadow = `0 0 0 3px ${colors.primary}20`
@@ -237,10 +234,7 @@ export default function LoginPage() {
                   placeholder="6 haneli kod"
                   maxLength={6}
                   className="w-full px-5 py-4 border-2 border-gray-300 rounded-xl outline-none text-center text-3xl lg:text-4xl tracking-widest font-bold text-gray-900 leading-tight"
-                  style={{
-                    focusRingColor: colors.primary,
-                    focusBorderColor: colors.primary
-                  }}
+                  style={{}}
                   onFocus={(e) => {
                     e.target.style.borderColor = colors.primary
                     e.target.style.boxShadow = `0 0 0 3px ${colors.primary}20`

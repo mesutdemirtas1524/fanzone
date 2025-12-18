@@ -534,9 +534,7 @@ export default function DashboardPage() {
                                 away: selectedScore?.away || 0
                               })}
                               className="w-16 px-3 py-2 rounded-lg text-center font-bold text-lg bg-white/20 border border-white/30 text-white focus:outline-none focus:ring-2"
-                              style={{
-                                focusRingColor: colors.secondary
-                              }}
+                              style={{}}
                             />
                           </div>
                           <span className="text-white font-bold">-</span>
@@ -551,9 +549,7 @@ export default function DashboardPage() {
                                 away: parseInt(e.target.value) || 0
                               })}
                               className="w-16 px-3 py-2 rounded-lg text-center font-bold text-lg bg-white/20 border border-white/30 text-white focus:outline-none focus:ring-2"
-                              style={{
-                                focusRingColor: colors.secondary
-                              }}
+                              style={{}}
                             />
                             <span className="text-white font-bold text-sm">{match.awayTeam}</span>
                           </div>
