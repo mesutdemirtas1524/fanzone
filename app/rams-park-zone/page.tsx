@@ -263,7 +263,7 @@ export default function RamsParkZonePage() {
 
         <div className="space-y-4">
           {businesses.map((business, index) => {
-            const isOnCooldown = cooldownEndTime && countdown > 0
+            const isOnCooldown = !!(cooldownEndTime && countdown > 0)
             
             return (
               <div
